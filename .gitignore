@@ -1,0 +1,20 @@
+# Ignorar la carpeta de dependencias
+venv/
+__pycache__/
+
+# Ignorar archivos de base de datos
+db.sqlite3
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de configuración
+.env
+
+# Ignorar archivos de compilación
+*.pyc
+*.pyo
+
+# Ignorar archivos de migraciones
+*/migrations/*.py
+*/migrations/*.pyc
